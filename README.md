@@ -1,13 +1,16 @@
-# react-example
+## react-example
+I rewite a homepage of mercari by react
+This is just a practice coding about react& json-server
 
+### preview
+[click here to previw](https://kisky3.github.io/react-example/)
+<img src="./preview.png" style="width:400px">
 
-ヘッダー、フッター、サイドバー、商品一覧のレイアウトと、商品一覧部分の実装をお願いします。
-※サイドバーのフォーム要素は不要です。
+### how to run
+1. download node.js
 
-表示するデータは仮のものをjsonファイルとして作成し、json-server経由で取得するようにしてください。
-
-対象ページ
-https://www.mercari.com/jp/search/?keyword=ps4
- 
- 
-提出期限：7月17日 （火）中
+2. run with comment below
+```
+json-server db.json -p003
+npm start
+```
